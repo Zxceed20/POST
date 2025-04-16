@@ -12,7 +12,8 @@ class TransactionDetailController extends Controller
      */
     public function index()
     {
-        return view('historyTransaction');
+        $historytransactions = TransactionDetail::all();
+    return view('historytransaction', compact('historytransactions'));
     }
 
     /**

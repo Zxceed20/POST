@@ -8,3 +8,4 @@ class TransactionDetail extends Model
 {
     //
 }
+
